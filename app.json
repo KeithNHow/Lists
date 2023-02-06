@@ -1,0 +1,32 @@
+{
+  "id": "533bce75-2772-4901-9867-3ea4f7f491da",
+  "name": "Lists",
+  "publisher": "Keith How",
+  "version": "1.0.0.1",
+  "brief": "Lists",
+  "description": "Lists",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "20.0.0.0",
+  "idRanges": [
+    {
+      "from": 51900,
+      "to": 51909
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "9.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
