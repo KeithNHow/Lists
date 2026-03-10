@@ -1,13 +1,13 @@
 /// <summary>
-/// PageExtension "KNH CustomerList" (ID 50100) extends Record Customer.
+/// PageExtension extends customer list page. On opening the page, it splits a long text into multiple lines and shows them in a message box. This is to demonstrate how to use TextBuilder.
 /// </summary>
-pageextension 51900 "KNH Customer List" extends "Customer List"
+pageextension 51900 KNHCustomerList extends "Customer List"
 {
     trigger OnOpenPage()
     var
-        Words: List of [Text];
-        Lines: List of [Text];
         WordPointer: Integer;
+        Lines: List of [Text];
+        Words: List of [Text];
         Builder: TextBuilder;
     begin
         Words := GetText().Split(' ');

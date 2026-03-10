@@ -1,0 +1,2 @@
+# Summary
+Extension consists only of a PageExtension page to extend customer list page. On opening the page, it splits a long text into multiple lines and shows them in a message box. This is to demonstrate how to use TextBuilder.
